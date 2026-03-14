@@ -1,0 +1,21 @@
+openai_api:
+  api_key: your_openai_api_key
+  organization: your_organization_id
+
+embedding_model:
+  name: your_embedding_model_name
+  parameters:
+    dim: 768
+    model_type: your_model_type
+
+faiss_index:
+  index_type: ivf
+  nlist: 100
+
+pdf_chunking:
+  chunk_size: 1024
+  overlap: 128
+
+file_paths:
+  pdf_path: /path/to/pdf
+  output_path: /path/to/output.yaml
